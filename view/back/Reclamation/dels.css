@@ -1,0 +1,84 @@
+/* General styling for the container */
+.container {
+    max-width: 800px; /* Set maximum width to keep content centered */
+    margin: 20px auto; /* Center the container and add some margin */
+    padding: 20px; /* Add some padding for better readability */
+    background-color: #f9f9f9; /* Light background color for a clean look */
+    border: 1px solid #ddd; /* Light border for definition */
+    border-radius: 8px; /* Rounded corners for a modern look */
+}
+
+/* Heading styling */
+h2 {
+    font-family: 'Arial', sans-serif; /* Use a common font */
+    font-size: 24px; /* Set a readable font size */
+    color: #333; /* Darker color for contrast */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+/* Label styling */
+label {
+    font-family: 'Arial', sans-serif; /* Use the same font as the heading */
+    font-size: 16px; /* Set a standard font size for form elements */
+    color: #555; /* Medium gray color for readability */
+    margin-bottom: 10px; /* Add spacing between labels */
+}
+
+/* Button styling */
+.btn {
+    font-family: 'Arial', sans-serif; /* Consistent font across the buttons */
+    font-size: 14px; /* Standard font size for buttons */
+    padding: 10px 20px; /* Adequate padding for buttons */
+    border: none; /* Remove default borders */
+    border-radius: 5px; /* Rounded corners for a sleek look */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Specific styling for delete button */
+.btn-danger {
+    background-color: #dc3545; /* Bootstrap's danger color */
+    color: white; /* White text for contrast */
+}
+
+/* Specific styling for cancel button */
+.btn-secondary {
+    background-color: #6c757d; /* Bootstrap's secondary color */
+    color: white; /* White text for contrast */
+}
+
+/* Hover effects for buttons */
+.btn:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover for feedback */
+}
+
+/* Spacing for form elements */
+form > div {
+    margin-bottom: 10px; /* Add space between form elements */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    h2 {
+        font-size: 20px; /* Reduce font size for smaller screens */
+    }
+
+    label {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    .btn {
+        font-size: 12px; /* Adjust button font size for smaller screens */
+    }
+}

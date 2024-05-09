@@ -1,0 +1,57 @@
+/* style.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* light gray background */
+}
+
+.container {
+    max-width: 600px; /* Set maximum width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    background-color: #fff; /* White background for the container */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Heading styles */
+h2 {
+    color: #343a40; /* Dark color for headings */
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 15px; /* Add some space between form groups */
+}
+
+label {
+    font-weight: bold; /* Make labels bold */
+}
+
+/* Button styles */
+.btn {
+    margin-right: 10px; /* Add space between buttons */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red background for delete button */
+    border-color: #dc3545; /* Red border color */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Gray background for cancel button */
+    border-color: #6c757d; /* Gray border color */
+}
+
+.btn-danger:hover,
+.btn-danger:focus {
+    background-color: #c82333; /* Darker red on hover/focus */
+    border-color: #bd2130; /* Darker red border color */
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background-color: #5a6268; /* Darker gray on hover/focus */
+    border-color: #545b62; /* Darker gray border color */
+}

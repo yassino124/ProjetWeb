@@ -1,0 +1,71 @@
+/* Définir des styles généraux */
+body {
+    font-family: Arial, sans-serif; /* Police par défaut */
+    background-color: #f5f5f5; /* Couleur de fond douce */
+    margin: 0;
+    padding: 0;
+}
+
+/* Titre de la page */
+h1 {
+    text-align: center; /* Centrer le texte */
+    color: #333; /* Couleur du texte */
+    padding: 20px 0; /* Espacement interne en haut et en bas */
+}
+
+/* Fieldset pour le formulaire */
+fieldset {
+    border: 1px solid #ccc; /* Bordure du fieldset */
+    padding: 20px; /* Espacement interne */
+    background-color: white; /* Couleur de fond du fieldset */
+    width: 50%; /* Largeur du fieldset */
+    margin: 20px auto; /* Centrer le fieldset */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+/* Labels du formulaire */
+label {
+    display: block; /* Afficher le label comme un bloc */
+    font-weight: bold; /* Mettre en gras */
+    margin-bottom: 10px; /* Espacement sous le label */
+}
+
+/* Champs d'entrée */
+input {
+    width: 100%; /* Prendre toute la largeur */
+    padding: 10px; /* Espacement interne */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+    margin-bottom: 20px; /* Espacement sous le champ */
+    box-sizing: border-box; /* Inclure la bordure dans la largeur */
+}
+
+/* Bouton de soumission */
+button {
+    padding: 10px 20px; /* Espacement interne */
+    background-color: #28a745; /* Couleur du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Changer le curseur à la souris */
+}
+
+button:hover {
+    background-color: #218838; /* Couleur au survol du bouton */
+}
+
+/* Messages d'erreur */
+.error {
+    color: red; /* Couleur des messages d'erreur */
+    text-align: center; /* Centrer le texte */
+}
+
+/* Lien de retour */
+a {
+    text-decoration: none; /* Pas de soulignement */
+    color: #007bff; /* Couleur des liens */
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}

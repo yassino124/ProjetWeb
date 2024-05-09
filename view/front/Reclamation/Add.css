@@ -1,0 +1,39 @@
+/* Style du formulaire de réclamation */
+.contact-form {
+    padding: 50px;
+    border-radius: 10px;
+}
+
+/* Style des champs du formulaire */
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Style du bouton de soumission */
+.contact-form #form-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form #form-submit:hover {
+    background-color: #45a049;
+}
+
+/* Style pour les messages d'erreur */
+#error {
+    color: red;
+    margin-bottom: 10px;
+}

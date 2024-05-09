@@ -1,0 +1,42 @@
+/* Style pour le tableau */
+table {
+    border-collapse: collapse; /* Fusionner les bordures de la table */
+    width: 100%; /* Largeur de la table */
+}
+
+/* Style pour les en-têtes de colonne */
+th {
+    background-color: #f0f0f0; /* Couleur de fond de l'en-tête de colonne */
+    padding: 10px; /* Rembourrage de l'en-tête de colonne */
+    text-align: left; /* Alignement du texte à gauche dans l'en-tête de colonne */
+}
+
+/* Style pour les cellules de données */
+td {
+    padding: 8px; /* Rembourrage des cellules de données */
+}
+
+/* Style pour les lignes impaires du tableau */
+tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Couleur de fond des lignes impaires */
+}
+
+/* Style pour les liens "Update" */
+input[name="update"] {
+    background-color: #007bff; /* Couleur de fond du bouton "Update" */
+    color: white; /* Couleur du texte du bouton "Update" */
+    border: none; /* Supprimer la bordure du bouton "Update" */
+    padding: 5px 10px; /* Rembourrage du bouton "Update" */
+    cursor: pointer; /* Curseur de la souris en pointeur au survol */
+}
+
+/* Style pour les liens "Delete" */
+a[href*="DeleteReclamation.php"] {
+    color: #dc3545; /* Couleur du texte du lien "Delete" */
+    text-decoration: none; /* Supprimer la soulignement du lien "Delete" */
+}
+
+/* Style pour les liens "Delete" au survol */
+a[href*="DeleteReclamation.php"]:hover {
+    text-decoration: underline; /* Souligner le lien "Delete" au survol */
+}
