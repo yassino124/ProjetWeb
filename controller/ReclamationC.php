@@ -109,7 +109,7 @@ class ReclamationC
 
     public function countNewReclamations() {
         // Requête SQL pour compter les réclamations avec l'état "nouveau"
-        $query = "SELECT COUNT(*) FROM reclamations WHERE etat = 'traité'";
+        $query = "SELECT COUNT(*) FROM reclamation WHERE var_dump = 1";
         $stmt = $this->db->prepare($query);
         $stmt->execute();
         
